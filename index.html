@@ -356,3 +356,15 @@ layout: page
     </div>
   </div>
 </section>
+
+
+<section class="py-5 mt-md-4 bg-lightgreen">
+  <h2 class="pt-4">Nos articles</h2>
+  <ul class="post-list">
+    {% for post in site.posts %}
+      {% include post_preview.html content=post %}
+    {% endfor %}
+  </ul>
+  <div class="text-center">
+  </div>
+</section>

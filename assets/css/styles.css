@@ -505,6 +505,46 @@ h3{
     display: block;
 }
 
+.post-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35px;
+}
+
+.post-list > li{
+    /* background-color: white;
+    border: 1px solid #2e2e2e;
+    padding: 20px; */
+    border-radius: 8px;
+}
+
+.post-list a{
+    color: #2e2e2e;
+    text-decoration: none;
+}
+
+.post-container{
+    max-width: 800px;
+    margin: auto;
+}
+
+.post-container h1{
+   color: #545454;
+   font-size: 4em;
+   font-family: 'Axelle-Regular', 'Arial', sans-serif;
+}
+.post-container h2{
+    font-size: 3em;
+ }
+
+.post-container section{
+    padding: 0;
+}
+.post-big-img{
+    width: 100%;
+    max-width: 400px;
+}
+
 @media screen and (min-width: 768px) {
     .nous .hide-for-mobile{
         display: block;
