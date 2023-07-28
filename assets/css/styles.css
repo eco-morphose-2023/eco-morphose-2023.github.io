@@ -433,7 +433,8 @@ h3{
 
 .nous h2{
     color: #75b48d;
-    background-color: #f2ebd1;
+    /* background-color: #f2ebd1; */
+    background-color: #f9f9f9;
     position: absolute;
     top: 15px;
     left: 21px;
@@ -522,6 +523,9 @@ h3{
     color: #2e2e2e;
     text-decoration: none;
 }
+.post-list .card-title{
+    line-height: 35px;
+}
 
 .post-container{
     max-width: 800px;
@@ -540,6 +544,14 @@ h3{
 .post-container section{
     padding: 0;
 }
+
+.post-container img{
+    display: block;
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
 .post-big-img{
     width: 100%;
     max-width: 400px;
