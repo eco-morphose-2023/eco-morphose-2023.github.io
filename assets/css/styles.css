@@ -507,9 +507,7 @@ h3{
 }
 
 .post-list{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 35px;
+    display: block;
 }
 
 .post-list > li{
@@ -517,6 +515,8 @@ h3{
     border: 1px solid #2e2e2e;
     padding: 20px; */
     border-radius: 8px;
+    margin: 0 auto 30px;
+    max-width: 350px;
 }
 
 .post-list a{
@@ -612,6 +612,15 @@ h3{
     }
     .methodo-desc::after{
         width: 40px;
+    }
+
+    .post-list{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 35px;
+    }
+    .post-list > li{
+        margin-bottom: 0;
     }
 }
 
