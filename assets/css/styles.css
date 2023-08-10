@@ -151,10 +151,6 @@ h3{
     background-color: #f2ebd1;
 }
 
-.bg-ligthgrey{
-    background-color: #fdfbf4;
-}
-
 .home-picto{
     max-height: 180px;
     display: block;
@@ -433,8 +429,7 @@ h3{
 
 .nous h2{
     color: #75b48d;
-    /* background-color: #f2ebd1; */
-    background: linear-gradient(#fdfbf4, #fff);
+    background-color: #fff;
     position: absolute;
     top: 15px;
     left: 21px;
@@ -448,12 +443,10 @@ h3{
     margin: 20px;
     border: 8px solid #f2ebd1;
     border-radius: 10px;
-    background-color: white;
 }
 
 .nous-valeurs{
     width: min-content !important;
-    background-color: white;
     align-self: center;
     padding: 25px 0px;
     border-radius: 10%;
