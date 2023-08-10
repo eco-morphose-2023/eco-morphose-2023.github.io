@@ -152,7 +152,7 @@ h3{
 }
 
 .bg-ligthgrey{
-    background-color: #f9f9f9;
+    background-color: #fdfbf4;
 }
 
 .home-picto{
@@ -434,7 +434,7 @@ h3{
 .nous h2{
     color: #75b48d;
     /* background-color: #f2ebd1; */
-    background-color: #f9f9f9;
+    background: linear-gradient(#fdfbf4, #fff);
     position: absolute;
     top: 15px;
     left: 21px;
@@ -446,8 +446,9 @@ h3{
 .nous > div{
     padding: 25px 25px 10px;
     margin: 20px;
-    border: 8px solid #fff;
+    border: 8px solid #f2ebd1;
     border-radius: 10px;
+    background-color: white;
 }
 
 .nous-valeurs{
