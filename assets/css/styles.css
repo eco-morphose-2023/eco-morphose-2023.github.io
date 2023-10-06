@@ -74,6 +74,7 @@ footer{
 
 section{
     padding: 20px 20px 40px;
+    scroll-margin: 50px;
     /* font-size: 32px; */
 }
 
@@ -111,6 +112,13 @@ h3{
 
 .red-text{
     color: #e77364;
+}
+
+.green-text{
+    color: #75b48d;
+}
+.page a.green-text{
+    color: #75b48d;
 }
 
 .welcome-section{
@@ -240,6 +248,10 @@ h3{
 } */
 
 .outils a{
+    color: #e77364;
+}
+
+.page a{
     color: #e77364;
 }
 
