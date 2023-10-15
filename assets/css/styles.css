@@ -563,6 +563,32 @@ h3{
     max-width: 400px;
 }
 
+
+.prix-plein{
+    text-decoration: line-through;
+}
+.premiere-session{
+    rotate: 27deg;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    width: 145px;
+    background-color: #80c69a;
+    border-radius: 5px;
+    padding: 5px 7px;
+    top: 0px;
+    right: 70px;
+}
+hr.formacilitation-spacer{
+    color: #f4ead1;
+    height: 5px;
+    width: 30%;
+    margin: auto;
+}
+.formacilitation li::marker{
+    color: #e77364;
+}
+
 @media screen and (min-width: 768px) {
     .nous .hide-for-mobile{
         display: block;
